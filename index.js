@@ -3,6 +3,7 @@ const app = express();
 
 app.get('/', (req, res) => {
 	res.send('Hello Digital Ocean!');
+	console.log('App access!!');
 });
 
 app.listen(3000, () => {
